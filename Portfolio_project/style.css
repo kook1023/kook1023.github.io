@@ -1,0 +1,110 @@
+/* Make the page fill the entire viewport */
+body,
+html {
+    height: 100%;
+}
+
+/* Make the text box take up the full width of the screen on mobile devices */
+.text-box-portfolio {
+    width: 100%;
+}
+
+.text-box-portfolio {
+    padding: 1rem;
+    background-color: rgb(25, 30, 38);
+    border-style: solid;
+    border-width: thin;
+    border-color: bisque;
+}
+
+.text-box-portfolio-title {
+    padding: 1rem;
+    background-color: rgb(25, 38, 30);
+    border-style: solid;
+    border-width: thick;
+    border-bottom: 0;
+    border-color: bisque;
+    margin: 0;
+}
+
+.make_white {
+    color: white;
+}
+
+.width-double {
+    display: block;
+    width: 100%;
+}
+
+.width-triple {
+    display: block;
+    width: 75%;
+}
+
+.width-quarter {
+    display: block;
+    width: 25%;
+}
+
+.image-border {
+    background-color: rgb(11, 52, 66);
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(46, 46, 46);
+    /* is for the border and of it color */
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    /* Makes it so the picture is good on Mobile Devices */
+}
+
+.new_font {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.container-box1 {
+    position: fixed;
+    top: 0;
+    left: 100vw;
+    transform: translate(-100%, 0);
+}
+
+@media only screen and (max-width: 600px) {
+    .d-flex {
+        flex-direction: column;
+    }
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+
+    .width-double {
+        display: block;
+        width: 100%;
+    }
+
+    .text-box-portfolio-title {
+        border-width: medium;
+    }
+
+    .text-box-portfolio {
+        border-width: medium;
+    }
+}
+
+.middle-alignment {
+    display: flex;
+    justify-content: center;
+}
+
+.button-border {
+    background-color:rgb(25, 38, 30);
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(168, 168, 132);
+}
+.btn-color {
+    background-color: red;
+}
